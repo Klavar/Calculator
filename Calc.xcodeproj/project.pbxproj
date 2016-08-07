@@ -12,6 +12,8 @@
 		C3F333D71D563B4E008D3D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F333D51D563B4E008D3D6A /* Main.storyboard */; };
 		C3F333D91D563B4E008D3D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F333D81D563B4E008D3D6A /* Assets.xcassets */; };
 		C3F333DC1D563B4E008D3D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F333DA1D563B4E008D3D6A /* LaunchScreen.storyboard */; };
+		C3F333E41D564888008D3D6A /* PixelOperator8.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F333E31D564888008D3D6A /* PixelOperator8.ttf */; };
+		C3F333E61D5656FB008D3D6A /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3F333E51D5656FB008D3D6A /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C3F333D81D563B4E008D3D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F333DB1D563B4E008D3D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3F333DD1D563B4E008D3D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F333E31D564888008D3D6A /* PixelOperator8.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelOperator8.ttf; sourceTree = "<group>"; };
+		C3F333E51D5656FB008D3D6A /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C3F333D01D563B4E008D3D6A /* Calc */ = {
 			isa = PBXGroup;
 			children = (
+				C3F333E51D5656FB008D3D6A /* btn.wav */,
+				C3F333E31D564888008D3D6A /* PixelOperator8.ttf */,
 				C3F333D11D563B4E008D3D6A /* AppDelegate.swift */,
 				C3F333D31D563B4E008D3D6A /* ViewController.swift */,
 				C3F333D51D563B4E008D3D6A /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F333E61D5656FB008D3D6A /* btn.wav in Resources */,
+				C3F333E41D564888008D3D6A /* PixelOperator8.ttf in Resources */,
 				C3F333DC1D563B4E008D3D6A /* LaunchScreen.storyboard in Resources */,
 				C3F333D91D563B4E008D3D6A /* Assets.xcassets in Resources */,
 				C3F333D71D563B4E008D3D6A /* Main.storyboard in Resources */,
@@ -253,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.TonyMerritt.Calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.TonyMerritt.Calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
